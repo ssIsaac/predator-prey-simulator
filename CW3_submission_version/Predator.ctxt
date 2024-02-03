@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Predator
+comment0.text=\n\ A\ simple\ model\ of\ a\ predator\ with\ its\ characteristics.\n\n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n\ @version\ 2022.02.28\n
+comment1.params=field\ location\ randomAge\ disease
+comment1.target=Predator(Field,\ Location,\ boolean,\ boolean)
+comment1.text=\n\ Create\ a\ new\ predator\ at\ location\ in\ field.\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ randomAge\ Returns\ true\ if\ a\ random\ age\ is\ to\ be\ assigned\ to\ a\ predator\n\ @param\ disease\ Whether\ a\ predator\ has\ a\ disease\n
+comment2.params=newPredators\ timeOfTheDay\ weatherStatus
+comment2.target=void\ act(java.util.List,\ java.lang.String,\ java.lang.String)
+comment2.text=\n\ Make\ this\ predator\ act\ -\ that\ is\:\ make\ it\ do\n\ whatever\ it\ wants/needs\ to\ do.\n\ @param\ newPredators\ A\ list\ to\ receive\ newly\ born\ predators.\n\ @param\ timeOfTheDay\ The\ time\ in\ the\ simulation\ at\ that\ instance\ \n\ @param\ weatherStatus\ The\ current\ weather\ in\ the\ simulation\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SetOfCoordinates
+comment0.text=\n\ Class\ that\ can\ store\ a\ pair\ of\ Integers\ standing\ for\ coordinates.\n\n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n\ @version\ 2022.02.28\n
+comment1.params=
+comment1.target=SetOfCoordinates()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SetOfCoordinates\n
+comment2.params=x\ y
+comment2.target=SetOfCoordinates(java.lang.Integer,\ java.lang.Integer)
+comment2.text=\n\ Constructor\ for\ objects\ of\ class\ SetOfCoordinates\n
+numComments=3

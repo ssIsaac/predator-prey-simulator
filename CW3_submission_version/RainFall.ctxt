@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RainFall
+comment0.text=\n\ A\ class\ that\ creates\ RainFall\ instances.\n\n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n\ @version\ 2022.02.28\n
+comment1.params=
+comment1.target=RainFall()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ RainFall\n
+comment2.params=
+comment2.target=java.lang.String\ impact()
+comment2.text=\n\ Return\ a\ String\ that\ reports\ the\ RainFall\u2019s\ status.\n\ @return\ \ \ String\ weatherStatus\n
+comment3.params=
+comment3.target=void\ determineHowLongItWillLast()
+comment3.text=\n\ Determine\ how\ long\ this\ instance\ of\ the\ phenomenon\ will\ last.\n
+numComments=4

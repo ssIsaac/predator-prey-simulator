@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\n\ A\ simple\ model\ of\ a\ plant.\n\ Plants\ age\ and\ die.\n\ \n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n\ @version\ 2022.02.28\n
+comment1.params=field\ location\ randomAge\ disease
+comment1.target=Plant(Field,\ Location,\ boolean,\ boolean)
+comment1.text=\n\ Create\ a\ plant.\ A\ plant\ can\ be\ created\ as\ a\ new\ born\ (age\ zero\n\ and\ not\ hungry)\ or\ with\ a\ random\ age\ and\ food\ level.\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ randomAge\ If\ true,\ the\ fox\ will\ have\ random\ age\ and\ hunger\ level.\n\ @param\ disease\ Whether\ an\ actor\ has\ a\ disease\n
+comment2.params=newActors\ timeOfTheDay\ weatherStatus
+comment2.target=void\ act(java.util.List,\ java.lang.String,\ java.lang.String)
+comment2.text=\n\ Make\ this\ plant\ act\ -\ that\ is\:\ make\ it\ do\n\ whatever\ it\ wants/needs\ to\ do.\n\ @param\ newPlants\ A\ list\ to\ receive\ newly\ born\ actors.\n\ @param\ timeOfTheDay\ The\ time\ in\ the\ simulation\ at\ that\ instance\ \n\ *\ @param\ weatherStatus\ The\ current\ weather\ in\ the\ simulation\n
+comment3.params=
+comment3.target=int\ breedMoreIntensively()
+comment3.text=\n\ Generate\ a\ number\ representing\ the\ number\ of\ young,\n\ if\ it\ can\ breed.\n\ @return\ The\ maximum\ number\ of\ births\ \n
+comment4.params=newActors
+comment4.target=void\ giveBirthMoreIntensively(java.util.List)
+comment4.text=\n\ Check\ whether\ or\ not\ this\ plant\ is\ to\ reproduce\ at\ this\ step.\n\ New\ youngs\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ @param\ newPlants\ A\ list\ to\ return\ newly\ germinated\ plants\n
+numComments=5

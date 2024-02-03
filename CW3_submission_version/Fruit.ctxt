@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Fruit
+comment0.text=\n\ A\ simple\ model\ of\ a\ fruit\ with\ its\ characteristics\n\n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n\ @version\ 2022.02.28\n
+comment1.params=field\ location\ randomAge\ disease
+comment1.target=Fruit(Field,\ Location,\ boolean,\ boolean)
+comment1.text=\n\ Create\ a\ new\ fruit\ at\ location\ in\ field.\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ randomAge\ Returns\ true\ if\ a\ random\ age\ is\ to\ be\ assigned\ to\ a\ fruit\n\ @param\ disease\ Whether\ a\ fruit\ has\ a\ disease\n
+comment2.params=
+comment2.target=int\ getMaxAge()
+comment2.text=\n\ @return\ The\ maximum\ age\ a\ fruit\ can\ live\ up\ to.\ This\ could\ result\ in\ the\ fruit's\ death.\n
+comment3.params=
+comment3.target=int\ getBreedingAge()
+comment3.text=\n\ @return\ the\ age\ in\ which\ a\ fruit\ can\ start\ to\ breed\n
+comment4.params=
+comment4.target=double\ getBreedingProbability()
+comment4.text=\n\ @return\ breeding\ probability\ of\ the\ fruit.\ \ \n
+comment5.params=
+comment5.target=int\ getMaxLitterSize()
+comment5.text=\n\ @return\ maximum\ number\ of\ young\ produced\ by\ a\ fruit.\ \ \n
+comment6.params=
+comment6.target=int\ getCaloriesProvided()
+comment6.text=\n\ @return\ calories\ provided\ by\ the\ animal.\ \n
+comment7.params=field\ location\ randomAge\ disease
+comment7.target=Fruit\ createNew(Field,\ Location,\ boolean,\ boolean)
+comment7.text=\n\ Check\ whether\ or\ not\ this\ fruit\ is\ to\ reproduce\ at\ this\ step.\n\ New\ fruits\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ randomAge\ Returns\ true\ if\ a\ random\ age\ is\ to\ be\ assigned\ to\ a\ fruit\n\ @param\ disease\ Whether\ a\ fruit\ has\ a\ disease\n
+numComments=8

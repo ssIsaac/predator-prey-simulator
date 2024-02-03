@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=WeatherKind
+comment0.text=\n\ Abstract\ class\ WeatherKind\ -\ a\ superclass\ for\ defining\ particular\ weather\ phenomena.\ \n\n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n@version\ 2022.02.28
+comment1.params=
+comment1.target=WeatherKind()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ WeatherKind.\ \n\ Set\ the\ time\ a\ phenomenon\ has\ lasted\ for\ as\ 0.\ \n\ Randomly\ determine\ how\ long\ the\ phenomenon\ will\ last.\ \n
+comment2.params=
+comment2.target=void\ determineHowLongItWillLast()
+comment2.text=\n\ Determine\ how\ long\ this\ instance\ of\ the\ phenomenon\ will\ last.\n
+comment3.params=
+comment3.target=java.lang.String\ impact()
+comment3.text=\n\ Return\ a\ String\ that\ reports\ the\ ThunderStorm\u2019s\ status.\n\ @return\ \ \ String\ weatherStatus\n
+comment4.params=
+comment4.target=void\ finishThisWeather()
+comment4.text=\n\ Finish\ this\ phenomenon.\ \n
+comment5.params=
+comment5.target=void\ incrementHowLongItHasLasted()
+comment5.text=\n\ Increment\ how\ long\ this\ phenomenon\ has\ lasted\ for.\ \n
+comment6.params=
+comment6.target=int\ getHowLongItHasLasted()
+comment6.text=\n\ Get\ how\ long\ this\ phenomenon\ has\ been\ present\ for.\n
+comment7.params=
+comment7.target=int\ getHowLongItWillLast()
+comment7.text=\n\ Get\ how\ long\ this\ phenomenon\ will\ last\ for.\n
+numComments=8

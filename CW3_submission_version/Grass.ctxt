@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Grass
+comment0.text=\n\ A\ model\ of\ a\ patch\ of\ grass\ with\ its\ characteristics\n\n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n\ @version\ 2022.02.28\n
+comment1.params=field\ location\ randomAge\ disease
+comment1.target=Grass(Field,\ Location,\ boolean,\ boolean)
+comment1.text=\n\ Create\ a\ new\ grass\ at\ location\ in\ field.\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ randomAge\ Returns\ true\ if\ a\ random\ age\ is\ to\ be\ assigned\ to\ a\ grass\n\ @param\ disease\ Whether\ a\ grass\ has\ a\ disease\n
+comment2.params=
+comment2.target=int\ getMaxAge()
+comment2.text=\n\ @return\ The\ maximum\ age\ a\ grass\ can\ live\ up\ to.\ This\ could\ result\ in\ the\ grass's\ death.\n
+comment3.params=
+comment3.target=int\ getBreedingAge()
+comment3.text=\n\ @return\ the\ age\ in\ which\ a\ grass\ can\ start\ to\ breed\n
+comment4.params=
+comment4.target=double\ getBreedingProbability()
+comment4.text=\n\ @return\ breeding\ probability\ of\ the\ grass.\n
+comment5.params=
+comment5.target=int\ getMaxLitterSize()
+comment5.text=\n\ @return\ maximum\ number\ of\ young\ produced\ by\ a\ grass.\n
+comment6.params=
+comment6.target=int\ getCaloriesProvided()
+comment6.text=\n\ @return\ calories\ provided\ by\ the\ grass.\ \n
+comment7.params=field\ location\ randomAge\ disease
+comment7.target=Grass\ createNew(Field,\ Location,\ boolean,\ boolean)
+comment7.text=\n\ Create\ a\ new\ grass\ at\ location\ in\ field.\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ randomAge\ Returns\ true\ if\ a\ random\ age\ is\ to\ be\ assigned\ to\ a\ grass.\n\ @param\ disease\ Whether\ a\ grass\ has\ a\ disease\n
+numComments=8

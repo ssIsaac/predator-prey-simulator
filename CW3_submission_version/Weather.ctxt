@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\n\ Weather\ class\ controls\ the\ weather\ in\ our\ simulated\ world.\ \n\ It\ keeps\ track\ of\ the\ current\ weather\ type\ in\ the\ simulation.\n\n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n\ @version\ 2022.02.28\n
+comment1.params=
+comment1.target=Weather()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Weather.\ Set\ the\ weather\ as\ standard\ intially.\n
+comment2.params=
+comment2.target=void\ setWeather()
+comment2.text=\n\ Set\ the\ current\ weather\ based\ on\ probability\ of\ a\ non-standard\ weather\ phenomenon\ occurring.\ \n\ Randomly\ designate\ the\ weather\ phenomenon\ that\ will\ affect\ the\ field.\ \n\ A\ non-standard\ weather\ phenomenon\ will\ only\ get\ initiated\ if\ \n\ the\ current\ weather\ is\ null,\ which\ stands\ for\ "standard\ &\ optimal\u201D.\ \n
+comment3.params=field
+comment3.target=java.lang.String\ weatherImpact(Field)
+comment3.text=\n\ Method\ acting\ as\ a\ mechanism\ for\ invoking\ what\ should\ happen\n\ with\ the\ weather\ at\ each\ step\ of\ the\ smulation.\ \n\ It\ will\ also\ finish\ a\ weather\ phenomenon\ if\ the\ time\ has\ come.\n\ @param\ \ field\ \ the\ field\ that\ will\ get\ affected\ by\ the\ weather\n\ @return\ \ a\ String\ that\ will\ pass\ the\ information\ on\ the\ current\ weather\ \n\ to\ the\ relevant\ other\ classes.\ \n
+comment4.params=field
+comment4.target=void\ ThunderStrike(Field)
+comment4.text=\n\ Randomly\ draw\ locations\ that\ will\ get\ affected\ by\ a\ thunder\ strike.\n\ Remove\ from\ the\ field\ and\ set\ as\ dead\ the\ animals\ that\ get\ striken\ by\ a\ thunder.\ \ \n\ @param\ \ field\ \ the\ field\ that\ will\ get\ affected\ by\ the\ thunders\n
+comment5.params=field
+comment5.target=java.util.List\ drawCoordinatesForAStroke(Field)
+comment5.text=\n\ Create\ an\ ArrayList\ storing\ coordinates\ of\ the\ locations\ that\ will\ get\ affected.\ \n\ @param\ \ field\ \ the\ field\ that\ will\ get\ affected\ by\ the\ thunders\n\ @return\ an\ ArrayList\ storing\ coordinates\ of\ the\ locations\ that\ will\ get\ affected\n
+comment6.params=field
+comment6.target=java.util.List\ drawXCoordinatesForAStroke(Field)
+comment6.text=\n\ Create\ an\ ArrayList\ storing\ randomly\ drawn\ x\ coordinates\ of\ teh\ field\ locations.\ \n\ @param\ \ field\ \ the\ field\ that\ will\ get\ affected\ by\ the\ thunders\n\ @return\ an\ ArrayList\ storing\ x\ coordinates\ of\ the\ locations\ that\ will\ get\ affected\n
+comment7.params=field
+comment7.target=java.util.List\ drawYCoordinatesForAStroke(Field)
+comment7.text=\n\ Create\ an\ ArrayList\ storing\ randomly\ drawn\ y\ coordinates\ of\ teh\ field\ locations.\ \n\ @param\ \ field\ \ the\ field\ that\ will\ get\ affected\ by\ the\ thunders\n\ @return\ an\ ArrayList\ storing\ y\ coordinates\ of\ the\ locations\ that\ will\ get\ affected\n
+numComments=8

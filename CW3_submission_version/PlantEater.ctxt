@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PlantEater
+comment0.text=\n\ A\ simple\ model\ of\ a\ plant\ eater\ with\ its\ characteristics.\n\n\ @author\ Miriam\ Czech,\ K21099181\ and\ Shun\ Sheng\ Lee,\ K21081997\n\ @version\ 2022.02.28\n
+comment1.params=field\ location\ randomAge\ disease
+comment1.target=PlantEater(Field,\ Location,\ boolean,\ boolean)
+comment1.text=\n\ Create\ a\ new\ plant\ eater\ at\ location\ in\ field.\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ randomAge\ Returns\ true\ if\ a\ random\ age\ is\ to\ be\ assigned\ to\ a\ plant\ eater\n\ @param\ disease\ Whether\ a\ plant\ eater\ has\ a\ disease\n
+numComments=2
